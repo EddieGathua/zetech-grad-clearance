@@ -19,7 +19,7 @@ const LoginForm = () => {
           <label htmlFor="Password">Password:</label>
           <input type="password" name="password" id="password" />
         </div>
-        <input type="submit" value="LOGIN" />
+        <input type="submit" value="SIGNUP" />
       </div>
     </form>
   );
