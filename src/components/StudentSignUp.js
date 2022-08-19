@@ -7,7 +7,7 @@ const StudentSignUp = () => {
   const passwordRef = useRef();
 
   async function handleSignup() {
-    await signup(email, password);
+    await signup(emailRef.current.value, passwordRef.current.value);
   }
   return (
     <form>
@@ -49,7 +49,7 @@ const StudentSignUp = () => {
             id="confirm-password"
           />
         </div>
-        <input type="submit" value="SIGNUP" />
+        <input type="submit" onClick={handleSignup} value="SIGNUP" />
       </div>
     </form>
   );
