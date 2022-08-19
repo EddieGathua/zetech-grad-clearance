@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
-import SignUpForm from "./components/SignUpForm";
+import StudentSignUp from "./components/StudentSignUp";
 
 function App() {
   return (
     <div className="App">
-      <SignUpForm />
+      <StudentSignUp />
     </div>
   );
 }

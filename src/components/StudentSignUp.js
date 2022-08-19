@@ -1,6 +1,6 @@
 import logo from "../assets/logo.png";
 
-const LoginForm = () => {
+const StudentSignUp = () => {
   return (
     <form>
       <div className="inner-form">
@@ -25,4 +25,4 @@ const LoginForm = () => {
   );
 };
 
-export default LoginForm;
+export default StudentSignUp;
